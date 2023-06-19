@@ -1,0 +1,21 @@
+/*
+DOMAIN：根据域名进行匹配，可以使用通配符（*）进行模糊匹配。例如，DOMAIN,www.example.com 将匹配所有以 www.example.com 开头的域名。
+
+DOMAIN-SUFFIX：根据域名后缀进行匹配。例如，DOMAIN-SUFFIX,example.com 将匹配所有以 example.com 结尾的域名。
+
+DOMAIN-KEYWORD：根据域名关键字进行匹配。例如，DOMAIN-KEYWORD,example 将匹配包含关键字 example 的所有域名。
+
+DOMAIN-FULL：精确匹配完整的域名。例如，DOMAIN-FULL,www.example.com 将只匹配 www.example.com。
+
+DOMAIN-REGEX：使用正则表达式进行域名匹配。例如，DOMAIN-REGEX,^www\..+\.com$ 将匹配以 www. 开头，以 .com 结尾的所有域名。
+
+除了以上域名相关的规则，Clash 还支持其他类型的规则：
+
+IP-CIDR：根据 IP 地址段进行匹配。例如，IP-CIDR,192.168.0.0/16 将匹配所有属于 192.168.0.0/16 子网的 IP 地址。
+
+GEOIP：根据地理位置信息进行匹配。例如，GEOIP,CN 将匹配中国地区的流量。
+
+SRC-IP：根据源 IP 地址进行匹配。例如，SRC-IP,192.168.0.1 将匹配源 IP 地址为 192.168.0.1 的流量。
+*/
+
+DOMAIN-SUFFIX,misakaf.org
