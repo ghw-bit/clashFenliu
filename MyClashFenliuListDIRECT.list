@@ -9,5 +9,5 @@
 #  SRC-IP：根据源 IP 地址进行匹配。例如，SRC-IP,192.168.0.1 将匹配源 IP 地址为 192.168.0.1 的流量。
 
 
-DOMAIN-SUFFIX,misakaf.org
+DOMAIN-SUFFIX,emby.misakaf.org
 DOMAIN-SUFFIX,danmaku.movie.kg
